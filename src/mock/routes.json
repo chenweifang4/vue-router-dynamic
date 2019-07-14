@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/404",
+    "name": "404",
+    "fileLocation": "404/404.vue"
+  },
+  {
+    "path": "/",
+    "name": "Home",
+    "fileLocation": "home/Home.vue"
+  },
+  {
+    "path": "/login",
+    "name": "Login",
+    "fileLocation": "login/Login.vue"
+  }
+]
