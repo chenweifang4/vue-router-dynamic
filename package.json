@@ -2,6 +2,14 @@
   "name": "vue-router-dynamic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/chenweifang4/vue-router-dynamic/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenweifang4/vue-router-dynamic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenweifang4/vue-router-dynamic/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -20,6 +28,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "readme-md-generator": "^0.5.2",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
