@@ -4,12 +4,14 @@
     <div>
       <transition name="fade">
         <p v-if="!store.hadInitRoutes">正在加载路由，请稍后</p>
+        <div v-else>
+          <router-view></router-view>
+          <router-link to="/login">back to login</router-link> |
+          <router-link to="/">back to Home</router-link> |
+          <router-link to="/404">back to 404</router-link> |
+          <router-link to="/aaaa">back to not exist path -- aaaa</router-link>
+        </div>
       </transition>
-      <router-view></router-view>
-      <router-link to="/login">back to login</router-link> |
-      <router-link to="/">back to Home</router-link> |
-      <router-link to="/404">back to 404</router-link> |
-      <router-link to="/aaaa">back to not exist path -- aaaa</router-link>
     </div>
   </div>
 </template>
