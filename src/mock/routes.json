@@ -13,5 +13,10 @@
     "path": "/login",
     "name": "Login",
     "fileLocation": "login/Login.vue"
+  },
+  {
+    "path": "/entry",
+    "name": "Entry",
+    "fileLocation": "entry/Entry.js"
   }
 ]

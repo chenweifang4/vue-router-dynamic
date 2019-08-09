@@ -8,6 +8,7 @@
           <router-view></router-view>
           <router-link to="/login">back to login</router-link> |
           <router-link to="/">back to Home</router-link> |
+          <router-link to="/entry">back to Entry</router-link> |
           <router-link to="/404">back to 404</router-link> |
           <router-link to="/aaaa">back to not exist path -- aaaa</router-link>
         </div>
