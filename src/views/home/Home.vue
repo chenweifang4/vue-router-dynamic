@@ -1,22 +1,19 @@
 <script>
+import Entry from '@/views/entry/Entry.js'
 export default {
   name: 'Home',
-  components: {},
-  props: {},
-  data () {
-    return {
-    }
-  },
-  computed: {
-  },
-  created () {
-  },
-  methods: {
+  components: {
+    Entry
   }
 }
 </script>
 <template>
-  <div>Hello Home page.</div>
+  <div>
+    <entry></entry>
+    <div>
+      Hello Home page.
+    </div>
+  </div>
 </template>
 <style lang="scss" module>
 </style>
